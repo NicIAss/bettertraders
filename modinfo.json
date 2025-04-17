@@ -5,7 +5,7 @@
   "description" : "Replaces vanilla traders with new structures.",
   "authors": ["NiclAss", "StAdrian", "Bellcross"],
   "side": "Server",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "dependency": {
     "game": "1.20.0-rc.6"
   }
