@@ -1,0 +1,55 @@
+{
+	"chanceMultiplier": 0.05,
+	"villageTypes": [
+		{
+			"code": "ruinedvillage",
+			"chance": 0.1,
+			"generator": "LooselyGrouped",
+			"quantityStructures": {
+				"avg": 4,
+				"var": 1
+			},
+			"schematics": [
+				{
+					"path": "overground/rustytraders-notent-rare/*",
+					"offsetY": 0,
+					"weight": 5
+				},
+				{
+					"path": "overground/rustytraders-notent-normal/*",
+					"offsetY": 0,
+					"weight": 10
+				},
+				{
+					"path": "overground/rustytraders-withtent/*",
+					"offsetY": 0,
+					"weight": 10
+				},
+				{
+					"path": "overground/rustytraders-rare/*",
+					"offsetY": 0,
+					"weight": 2
+				},
+				{
+					"path": "overground/statues/*",
+					"offsetY": -1,
+					"weight": 30,
+					"minQuantity": 1,
+					"maxQuantity": 1
+				}
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"minGroupDistance": 600,
+			"postPass": true,
+			"suppressTrees": true,
+			"group": "trader",
+			"name": "Trader Wagon",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			]
+		}
+	]
+}

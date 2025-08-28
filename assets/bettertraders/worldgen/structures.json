@@ -1,0 +1,338 @@
+{
+	"chanceMultiplier": 0.46,
+	"rocktypeRemapGroups": {
+		"standard": {
+			"game:cobblestone-granite": "game:cobblestone-{rock}",
+			"game:cobblestoneslab-granite-down-free": "game:cobblestoneslab-{rock}-down-free",
+			"game:cobblestonestairs-granite-up-south-free": "game:cobblestonestairs-{rock}-up-south-free",
+			"game:cobblestonestairs-granite-up-north-free": "game:cobblestonestairs-{rock}-up-north-free",
+			"game:cobblestonestairs-granite-up-west-free": "game:cobblestonestairs-{rock}-up-west-free",
+			"game:cobblestonestairs-granite-up-east-free": "game:cobblestonestairs-{rock}-up-east-free",
+			"game:rock-granite": "game:rock-{rock}",
+			"game:crackedrock-granite": "game:rock-{rock}",
+			"game:gravel-granite": "game:gravel-{rock}",
+			"game:sand-granite": "game:sand-{rock}",
+			"game:stonebricks-granite": "game:stonebricks-{rock}",
+			"game:agedstonebricks-granite": "game:agedstonebricks-{rock}",
+			"game:crackedstonebricks-granite": "game:crackedstonebricks-{rock}",
+			"game:cobblestonestairs-granite-down-south-free": "game:cobblestonestairs-{rock}-down-south-free",
+			"game:cobblestonestairs-granite-down-north-free": "game:cobblestonestairs-{rock}-down-north-free",
+			"game:cobblestonestairs-granite-down-west-free": "game:cobblestonestairs-{rock}-down-west-free",
+			"game:cobblestonestairs-granite-down-east-free": "game:cobblestonestairs-{rock}-down-east-free",
+			"game:cobbleskull-granite": "game:cobbleskull-{rock}",
+			"game:cobblestoneslab-granite-up-free": "game:cobblestoneslab-{rock}-up-free",
+			"game:loosestones-granite-free": "game:loosestones-{rock}-free",
+			"game:cobblestoneslab-granite-east-free": "game:cobblestoneslab-{rock}-east-free",
+			"game:cobblestoneslab-granite-south-free": "game:cobblestoneslab-{rock}-south-free",
+			"game:looseflints-granite-free": "game:looseflints-{rock}-free",
+			"game:cobblestoneslab-granite-west-free": "game:cobblestoneslab-{rock}-west-free",
+			"game:cobblestoneslab-granite-north-free": "game:cobblestoneslab-{rock}-north-free",
+			"game:polishedrockslab-granite-west-free": "game:polishedrockslab-{rock}-west-free",
+			"game:polishedrockslab-granite-east-free": "game:polishedrockslab-{rock}-east-free",
+			"game:polishedrockslab-granite-down-free": "game:polishedrockslab-{rock}-down-free",
+			"game:polishedrockslab-granite-south-free": "game:polishedrockslab-{rock}-south-free",
+			"game:polishedrockslab-granite-north-free": "game:polishedrockslab-{rock}-north-free",
+			"game:stonebrickstairs-granite-down-north-free": "game:stonebrickstairs-{rock}-down-north-free",
+			"game:stonebrickstairs-granite-down-south-free": "game:stonebrickstairs-{rock}-down-south-free",
+			"game:stonebrickslab-granite-north-free": "game:stonebrickslab-{rock}-north-free",
+			"game:stonebrickstairs-granite-down-west-free": "game:stonebrickstairs-{rock}-down-west-free",
+			"game:rockpolished-granite": "game:rockpolished-{rock}",
+			"game:stonebrickslab-granite-up-free": "game:stonebrickslab-{rock}-up-free",
+			"game:stonebrickstairs-granite-down-east-free": "game:stonebrickstairs-{rock}-down-east-free",
+			"game:stonebrickstairs-granite-up-south-free": "game:stonebrickstairs-{rock}-up-south-free",
+			"game:stonebrickslab-granite-east-free": "game:stonebrickslab-{rock}-east-free",
+			"game:drystone-granite": "game:drystone-{rock}",
+			"game:polishedrockold-full-granite": "game:polishedrockold-full-{rock}",
+			"game:polishedrockold-cobbled-granite": "game:polishedrockold-cobbled-{rock}",
+			"game:looseboulders-granite-free": "game:looseboulders-{rock}-free"
+		},
+		"underground": {
+			"game:ore-*-andesite": "game:ore-*-{rock}",
+			"game:ore-*-chalk": "game:ore-*-{rock}",
+			"game:ore-*-chert": "game:ore-*-{rock}",
+			"game:ore-*-conglomerate": "game:ore-*-{rock}",
+			"game:ore-*-limestone": "game:ore-*-{rock}",
+			"game:ore-*-claystone": "game:ore-*-{rock}",
+			"game:ore-*-granite": "game:ore-*-{rock}",
+			"game:ore-*-sandstone": "game:ore-*-{rock}",
+			"game:ore-*-shale": "game:ore-*-{rock}",
+			"game:ore-*-basalt": "game:ore-*-{rock}",
+			"game:ore-*-peridotite": "game:ore-*-{rock}",
+			"game:ore-*-phyllite": "game:ore-*-{rock}",
+			"game:ore-*-slate": "game:ore-*-{rock}",
+			"game:ore-*-obsidian": "game:ore-*-{rock}",
+			"game:ore-*-kimberlite": "game:ore-*-{rock}",
+			"game:ore-*-scoria": "game:ore-*-{rock}",
+			"game:ore-*-tuff": "game:ore-*-{rock}",
+			"game:ore-*-bauxite": "game:ore-*-{rock}",
+			"game:ore-*-halite": "game:ore-*-{rock}",
+			"game:ore-*-suevite": "game:ore-*-{rock}",
+			"game:ore-*-whitemarble": "game:ore-*-{rock}",
+			"game:ore-*-redmarble": "game:ore-*-{rock}",
+			"game:ore-*-greenmarble": "game:ore-*-{rock}",
+			"game:rock-granite": "game:rock-{rock}",
+			"game:crackedrock-granite": "game:rock-{rock}",
+			"game:gravel-granite": "game:gravel-{rock}",
+			"game:sand-granite": "game:sand-{rock}",
+			"game:stalagsection-granite-04": "game:stalagsection-{rock}-04",
+			"game:stalagsection-granite-06": "game:stalagsection-{rock}-06",
+			"game:stalagsection-granite-08": "game:stalagsection-{rock}-08",
+			"game:stalagsection-granite-10": "game:stalagsection-{rock}-10",
+			"game:stalagsection-granite-12": "game:stalagsection-{rock}-12",
+			"game:stalagsection-granite-14": "game:stalagsection-{rock}-14",
+			"game:cobblestone-granite": "game:cobblestone-{rock}",
+			"game:cobblestoneslab-granite-down-free": "game:cobblestoneslab-{rock}-down-free",
+			"game:cobblestonestairs-granite-up-south-free": "game:cobblestonestairs-{rock}-up-south-free",
+			"game:cobblestonestairs-granite-up-north-free": "game:cobblestonestairs-{rock}-up-north-free",
+			"game:cobblestonestairs-granite-up-west-free": "game:cobblestonestairs-{rock}-up-west-free",
+			"game:cobblestonestairs-granite-up-east-free": "game:cobblestonestairs-{rock}-up-east-free",
+			"game:stonebricks-granite": "game:stonebricks-{rock}",
+			"game:agedstonebricks-granite": "game:agedstonebricks-{rock}",
+			"game:crackedstonebricks-granite": "game:crackedstonebricks-{rock}",
+			"game:cobblestonestairs-granite-down-south-free": "game:cobblestonestairs-{rock}-down-south-free",
+			"game:cobblestonestairs-granite-down-north-free": "game:cobblestonestairs-{rock}-down-north-free",
+			"game:cobblestonestairs-granite-down-west-free": "game:cobblestonestairs-{rock}-down-west-free",
+			"game:cobblestonestairs-granite-down-east-free": "game:cobblestonestairs-{rock}-down-east-free",
+			"game:cobbleskull-granite": "game:cobbleskull-{rock}",
+			"game:cobblestoneslab-granite-up-free": "game:cobblestoneslab-{rock}-up-free",
+			"game:loosestones-granite-free": "game:loosestones-{rock}-free",
+			"game:cobblestoneslab-granite-east-free": "game:cobblestoneslab-{rock}-east-free",
+			"game:cobblestoneslab-granite-south-free": "game:cobblestoneslab-{rock}-south-free",
+			"game:looseflints-granite-free": "game:looseflints-{rock}-free",
+			"game:cobblestoneslab-granite-west-free": "game:cobblestoneslab-{rock}-west-free",
+			"game:cobblestoneslab-granite-north-free": "game:cobblestoneslab-{rock}-north-free",
+			"game:polishedrockslab-granite-west-free": "game:polishedrockslab-{rock}-west-free",
+			"game:polishedrockslab-granite-east-free": "game:polishedrockslab-{rock}-east-free",
+			"game:polishedrockslab-granite-down-free": "game:polishedrockslab-{rock}-down-free",
+			"game:polishedrockslab-granite-south-free": "game:polishedrockslab-{rock}-south-free",
+			"game:polishedrockslab-granite-north-free": "game:polishedrockslab-{rock}-north-free",
+			"game:stonebrickstairs-granite-down-north-free": "game:stonebrickstairs-{rock}-down-north-free",
+			"game:stonebrickstairs-granite-down-south-free": "game:stonebrickstairs-{rock}-down-south-free",
+			"game:stonebrickslab-granite-north-free": "game:stonebrickslab-{rock}-north-free",
+			"game:stonebrickstairs-granite-down-west-free": "game:stonebrickstairs-{rock}-down-west-free",
+			"game:rockpolished-granite": "game:rockpolished-{rock}",
+			"game:stonebrickslab-granite-up-free": "game:stonebrickslab-{rock}-up-free",
+			"game:stonebrickstairs-granite-down-east-free": "game:stonebrickstairs-{rock}-down-east-free",
+			"game:stonebrickstairs-granite-up-south-free": "game:stonebrickstairs-{rock}-up-south-free",
+			"game:stonebrickslab-granite-east-free": "game:stonebrickslab-{rock}-east-free",
+			"game:drystone-granite": "game:drystone-{rock}",
+			"game:polishedrockold-full-granite": "game:polishedrockold-full-{rock}",
+			"game:polishedrockold-cobbled-granite": "game:polishedrockold-cobbled-{rock}",
+			"game:looseboulders-granite-free": "game:looseboulders-{rock}-free"
+		}
+	},
+	"schematicYOffsets": {
+		"overground/statues/gearstatue-sirayne-o3": -4,
+		"overground/statues/stadrianstatuelarge1-o3": -4
+	},
+	"structures": [
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Trader Wagon",
+			"chance": 0.025,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/traderwagons/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"suppressTrees": true,
+			"minTemp": -12,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Trader Wagons with Tent",
+			"chance": 0.05,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/traderwagonswithtent/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Rusty Trader Wagons RARE",
+			"chance": 0.01,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/rustytraders-rare-o1/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Rusty Trader Wagons RARE",
+			"chance": 0.01,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/rustytraders-rare/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Trader Wagon",
+			"chance": 0.05,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/rustytraders-withtent/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Trader Wagon",
+			"chance": 0.2,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/rustytraders-notent-normal/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Trader Wagon",
+			"chance": 0.01,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/rustytraders-notent-rare/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		},
+		{
+			"code": "tradercavaran",
+			"group": "tradercold",
+			"minGroupDistance": 700,
+			"chance": 0.1,
+			"schematics": [
+				"overground/coldclimatetraders/*"
+			],
+			"rockTypeRemapGroup": "standard",
+			"minTemp": -40,
+			"maxTemp": -12,
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"suppressTrees": true,
+			"placement": "surface",
+			"offsetY": -2,
+			"MaxBelowSealevel": 1
+		},
+		{
+			"code": "tradercavaran",
+			"group": "trader",
+			"minGroupDistance": 600,
+			"name": "Trader Wagon",
+			"chance": 0.01,
+			"offsetY": 0,
+			"MaxBelowSealevel": 1,
+			"schematics": [
+				"overground/tractors/*"
+			],
+			"buildProtected": true,
+			"buildProtectionName": "Trader",
+			"buildProtectionDesc": "Trader Perimenter",
+			"replacewithblocklayers": [
+				"game:packeddirt",
+				"game:cob-none"
+			],
+			"postPass": true,
+			"minTemp": -12,
+			"suppressTrees": true,
+			"placement": "surface"
+		}
+	]
+}

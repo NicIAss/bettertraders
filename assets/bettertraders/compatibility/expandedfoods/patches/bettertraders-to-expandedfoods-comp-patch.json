@@ -1,25 +1,22 @@
 [
-  // New Traders
   {
     "op": "add",
     "path": "/structures/-",
     "value":   {
       "code": "tradercavaran",
       "group": "trader",
-      "minGroupDistance": 700, //700
+      "minGroupDistance": 700,
       "name": "Trader Wagon",
       "chance": 0.004,
       "offsetY": 0,
       "schematics": [
-        "overground/expandedfoods/*"
+        "bettertraders:overground/expandedfoods/*"
       ],
       "buildProtected": true,
       "buildProtectionName": "Trader",
       "buildProtectionDesc": "Trader Perimenter",
       "replacewithblocklayers": [
-        "packeddirt",
         "game:packeddirt",
-        "cob-none",
         "game:cob-none"
       ],
       "postPass": true,
@@ -27,7 +24,7 @@
       "minTemp": -12,
       "placement": "surface"
     },
-    "file": "game:worldgen/structures.json",
+    "file": "bettertraders:worldgen/structures.json",
     "side": "Server",
     "dependsOn": [
       {
