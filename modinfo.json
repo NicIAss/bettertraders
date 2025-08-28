@@ -2,11 +2,11 @@
   "type": "content",
   "modid": "bettertraders",
   "name": "BetterTraders",
-  "description" : "Replaces vanilla traders with new structures.",
-  "authors": ["NiclAss", "StAdrian", "Bellcross"],
+  "description" : "Replaces vanilla traders with new trader structures.\nBuilders: StAdrian, Bellcross, Sirayne, NiclAss",
+  "authors": ["NiclAss"],
   "side": "Server",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "dependency": {
-    "game": "1.20.0-rc.6"
+    "game": "1.21.0"
   }
 }
