@@ -40,6 +40,9 @@
       },
       "bettertraders:compatibility/booktrader/patches/bettertraders-to-booktrader-comp-patch.json": {
         "0/value/chance": "BOOKTRADER_SPAWN_CHANCE"
+      },
+      "bettertraders:compatibility/wildcraftfruit/patches/bettertraders-to-wildcraftfruit-comp-patch.json": {
+        "0/value/chance": "WILDCRAFTFRUIT_SPAWN_CHANCE"
       }
     },
     "integer": {
@@ -168,6 +171,17 @@
           "min": 0.0,
           "max": 10.0
         }
+      },
+      "WILDCRAFTFRUIT_SPAWN_CHANCE": {
+        "name": "Wildcraftfruit Traders",
+        "comment": "Defines the spawnchance of wildcraftfruit specific traders if that mod is loaded alongside bettertraders.",
+        "default": 0.02,
+        "weight": 14.0,
+        "logarithmic": true,
+        "range": {
+          "min": 0.0,
+          "max": 10.0
+        }
       }
     },
     "integer": {
@@ -211,7 +225,7 @@
     {
       "type": "separator",
       "title": "Mindistance between traders",
-      "text": "!!! WARNING !!!\nIf you are using other mods that add traders be sure to have the mindistance set to the same value otherwise it will mess up and not result in correct spawnchances.\nIf you are just running bettertraders and the supported mods this is no problem.",
+      "text": "!!! WARNING !!!\nIf you are using other mods that add traders be sure to have the mindistance set to the same value otherwise it will mess up and not result in correct spawnchances.",
 
       "weight": 0.3
     },
