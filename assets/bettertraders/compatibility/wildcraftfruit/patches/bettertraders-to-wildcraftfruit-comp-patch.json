@@ -1,0 +1,35 @@
+[
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value":   {
+      "code": "tradercavaran",
+      "group": "trader",
+      "minGroupDistance": 700,
+      "name": "Trader Wagon",
+      "chance": 0.02,
+      "offsetY": 0,
+      "schematics": [
+        "bettertraders:overground/wildcraftfruit/*"
+      ],
+      "buildProtected": true,
+      "buildProtectionName": "Trader",
+      "buildProtectionDesc": "Trader Perimenter",
+      "replacewithblocklayers": [
+        "game:packeddirt",
+        "game:cob-none"
+      ],
+      "postPass": true,
+      "suppressTrees": true,
+      "minTemp": -12,
+      "placement": "surface"
+    },
+    "file": "bettertraders:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "wildcraftfruit"
+      }
+    ]
+  }
+]
