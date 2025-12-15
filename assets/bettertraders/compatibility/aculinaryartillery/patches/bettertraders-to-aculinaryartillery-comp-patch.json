@@ -1,0 +1,26 @@
+[
+  {
+    "op": "replace",
+    "path": "/structures/0/minGroupDistance",
+    "value": 700,
+    "file": "aculinaryartillery:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/0/chance",
+    "value": 0.5,
+    "file": "aculinaryartillery:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      {
+        "modid": "aculinaryartillery"
+      }
+    ]
+  }
+]
