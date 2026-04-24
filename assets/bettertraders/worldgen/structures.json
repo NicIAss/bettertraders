@@ -169,8 +169,8 @@
 			"MaxBelowSealevel": 1
 		},
 		{
-			"code": "tradercavaran",
-			"group": "tradercold",
+			"code": "trader-coldclimate",
+			"group": "trader",
 			"minGroupDistance": 600,
 			"chance": 0.1,
 			"schematics": [
