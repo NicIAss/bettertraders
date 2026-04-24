@@ -2,7 +2,7 @@
   "type": "content",
   "modid": "bettertraders",
   "name": "BetterTraders",
-  "description" : "Replaces vanilla traders with new trader structures.\nBuilders: StAdrian, FemurSnapper, Sirayne, NiclAss",
+  "description" : "Adds new trader structures additionally to vanilla traders.\nBuilders: StAdrian, FemurSnapper, Sirayne, NiclAss",
   "authors": ["NiclAss"],
   "side": "Server",
   "version": "0.2.0",
