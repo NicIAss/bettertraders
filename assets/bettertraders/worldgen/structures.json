@@ -129,7 +129,7 @@
 			"group": "trader",
 			"minGroupDistance": 600,
 			"name": "Common trader camps",
-			"chance": 0.16,
+			"chance": 1,
 			"schematics": ["overground/plains/*"],
 			"rockTypeRemapGroup": "standard",
 			"buildProtected": true,
