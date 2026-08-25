@@ -5,8 +5,8 @@
   "description" : "Adds new trader structures additionally to vanilla traders.\nBuilders: StAdrian, FemurSnapper, Sirayne, NiclAss",
   "authors": ["NiclAss"],
   "side": "Server",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "dependencies": {
-    "game": "1.22.0"
+    "game": "1.22.7"
   }
 }
