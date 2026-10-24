@@ -181,7 +181,9 @@
 			"maxTemp": -3,
 			"buildProtected": true,
 			"buildProtectionName": "Trader",
-			"buildProtectionDesc": "Trader Perimenter",
+			"buildProtectionDesc": "Trader Perimeter",
+			"allowUseEveryone": false,
+			"allowTraverseEveryone": true,
 			"replacewithblocklayers": [
 				"game:packeddirt",
 				"game:cob-none"
